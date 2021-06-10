@@ -1,0 +1,52 @@
+.login__page {
+  padding: 5vw 10vw 5vw 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login__page section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login__page svg {
+  width: 39vw;
+  height: 27vw;
+}
+.login__page input {
+  margin-bottom: 1vw;
+}
+
+.login__page button {
+  width: 6.51vw;
+  height: 2.6vw;
+  background: linear-gradient(90deg, #ec008c 0%, #fc6767 100%);
+
+  border-radius: 1.63vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.937vw;
+  line-height: 1.406vw;
+  text-align: center;
+  letter-spacing: -0.008vw;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 1vw;
+  /* margin-left: 2rem; */
+}
+.login__page button:hover {
+  background: #cfc4c5;
+  color: black;
+}
+button[disabled] {
+  border: 1px solid #999999;
+  background: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+.attendance-btn {
+  width: 10vw !important;
+}
